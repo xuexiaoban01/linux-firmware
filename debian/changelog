@@ -1,3 +1,11 @@
+linux-firmware (1.183.1) eoan; urgency=medium
+
+  * Firmware for Radeon RX5700 (navi10) missing / boot failure
+    (LP: #1848848)
+    - amdgpu: add initial navi10 firmware
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 22 Oct 2019 07:05:09 -0500
+
 linux-firmware (1.183) eoan; urgency=medium
 
   * update firmware for sound sof driver to fix the hang issue on several
