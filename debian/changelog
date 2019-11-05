@@ -1,3 +1,20 @@
+linux-firmware (1.183.2) eoan; urgency=medium
+
+  * update-initramfs complains of missing amdgpu firmware files
+    (LP: #1850654)
+    - amdgpu: add new raven rlc firmware
+
+  * Add RTL8822cu bluetooth support (LP: #1849598)
+    - rtl_bt: Update configuration file for BT part of RTL8822CU
+
+  * Revert the firmware update for sound/sof (LP: #1850739)
+    - Revert "UBUNTU: SAUCE: update firmware for sound sof driver to fix hang issues"
+
+  * Add support for Realtek 8723DE wireless adapter (LP: #1780590)
+    - rtw88: RTL8723D: add firmware file v48
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Tue, 05 Nov 2019 15:47:04 -0600
+
 linux-firmware (1.183.1) eoan; urgency=medium
 
   * Firmware for Radeon RX5700 (navi10) missing / boot failure
