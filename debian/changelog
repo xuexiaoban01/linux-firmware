@@ -1,3 +1,12 @@
+linux-firmware (1.183.3) eoan; urgency=medium
+
+  * Intel Wireless-AC 9560 Bluetooth, whenever connected to BLE devices,
+    causes UI freeze when re-logging in after resumed from suspend
+    (LP: #1855235)
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 12 Dec 2019 07:22:43 -0600
+
 linux-firmware (1.183.2) eoan; urgency=medium
 
   * update-initramfs complains of missing amdgpu firmware files
