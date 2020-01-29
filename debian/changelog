@@ -1,3 +1,14 @@
+linux-firmware (1.183.4) eoan; urgency=medium
+
+  * Fix throttled clock on AMD Oland (LP: #1858751)
+    - radeon: update oland rlc microcode from amdgpu
+
+  * intel/sof: update the intel sof firmware to v1.3-0f73628 for cml and cnl
+    (LP: #1859387)
+    - SAUCE: Update cml and cnl sof firmware files to v1.3-0f73628
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 29 Jan 2020 13:12:52 -0600
+
 linux-firmware (1.183.3) eoan; urgency=medium
 
   * Intel Wireless-AC 9560 Bluetooth, whenever connected to BLE devices,
