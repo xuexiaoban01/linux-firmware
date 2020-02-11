@@ -1,8 +1,9 @@
-linux-firmware (1.186) focal; urgency=medium
+linux-firmware (1.186+system76) focal; urgency=medium
 
+  [ Seth Forshee ]
   * Add Breaks: on linux-firmware-raspi2 <= 1.20190819-0ubuntu2
 
- -- Seth Forshee <seth.forshee@canonical.com>  Fri, 31 Jan 2020 09:47:18 -0600
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 11 Feb 2020 08:09:22 -0700
 
 linux-firmware (1.185) focal; urgency=medium
 
