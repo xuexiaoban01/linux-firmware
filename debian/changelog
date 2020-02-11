@@ -1,5 +1,6 @@
-linux-firmware (1.183.4) eoan; urgency=medium
+linux-firmware (1.183.4+system76) eoan; urgency=medium
 
+  [ Seth Forshee ]
   * Fix throttled clock on AMD Oland (LP: #1858751)
     - radeon: update oland rlc microcode from amdgpu
 
@@ -7,7 +8,7 @@ linux-firmware (1.183.4) eoan; urgency=medium
     (LP: #1859387)
     - SAUCE: Update cml and cnl sof firmware files to v1.3-0f73628
 
- -- Seth Forshee <seth.forshee@canonical.com>  Wed, 29 Jan 2020 13:12:52 -0600
+ -- Jeremy Soller <jeremy@system76.com>  Tue, 11 Feb 2020 08:11:04 -0700
 
 linux-firmware (1.183.3) eoan; urgency=medium
 
